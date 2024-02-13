@@ -8,5 +8,8 @@ coverage
 ormconfig.json
 dist
 
+**/ormconfig.json
+!.infra/**/ormconfig.json
+
 uploads/*
 !uploads/.gitkeep
